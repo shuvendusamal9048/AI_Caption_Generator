@@ -21,7 +21,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-    "https://ai-caption-generator-gold.vercel.app/"
+    "https://ai-caption-generator-gold.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
